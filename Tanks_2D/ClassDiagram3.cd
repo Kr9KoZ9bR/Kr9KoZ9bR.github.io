@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Tanks_2D.Bullet" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAEAAQQIABEAAAAAAAAAAAAAAAAAIAAABiAAAAYAA=</HashCode>
+      <FileName>Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks_2D.BulletPic" Collapsed="true">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQAAAEAAAAABAAAAAQAAAEAAAAQAAAAAAAAAAAE=</HashCode>
+      <FileName>BulletPic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks_2D.Controller_MainField" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAEAADhAAgAAAAiAAAASAAAJQACAAUAAABAIAAE=</HashCode>
+      <FileName>Controller_MainField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks_2D.DestroyedTank" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAABgAAAAZAA=</HashCode>
+      <FileName>DestroyedTank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks_2D.DestroyedTankPic" Collapsed="true">
+    <Position X="2" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DestroyedTankPic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks_2D.Enemy" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIABAAAAAAAAAAAAEABAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks_2D.EnemyPic" Collapsed="true">
+    <Position X="2" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAACAAAAAAAAAAAAAAAIAAAACACAAgAAgAI=</HashCode>
+      <FileName>EnemyPic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks_2D.Model" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAQAABBAAAAAAAABIAAAAgBABANEQEQARA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks_2D.Player" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAUIABGBBAAAAAAAAgEAIAYAIAAgBiAAAAYAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tanks_2D.PlayerPic" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAACAAAAAAAAAAAAAAAIAAAACACAAgAAgAI=</HashCode>
+      <FileName>PlayerPic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks_2D.Program" Collapsed="true">
+    <Position X="2" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks_2D.Tank" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAQIABEABACAAAAAAgEAJAYAIAAgBjAAAAYAA=</HashCode>
+      <FileName>Tank.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Tanks_2D.TankPic" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAACAAAAAAAAAAAAAAAIAAAACACAAgAAgAI=</HashCode>
+      <FileName>TankPic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks_2D.View" Collapsed="true">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAACEAACgAAgAAAACAAAACQAAAAAAAAAAgACAIAAA=</HashCode>
+      <FileName>View.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks_2D.Walls" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Walls.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tanks_2D.WallsPic" Collapsed="true">
+    <Position X="3.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WallsPic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks_2D.Properties.Resources" Collapsed="true">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACCAUBAAA+gBCAYAAlEADKQQGAVOQIgFJBAABAAvY=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tanks_2D.Properties.Settings" Collapsed="true">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Tanks_2D.IBorderlessField" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBorderlessField.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tanks_2D.ICurrentPic" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICurrentPic.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tanks_2D.IMove" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMove.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tanks_2D.IPic" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPic.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tanks_2D.IRotate" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRotate.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tanks_2D.IRotateBack" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRotateBack.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Tanks_2D.PGStat" Collapsed="true">
+    <Position X="2" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABQAgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PGStat.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="8.25" />
+</ClassDiagram>

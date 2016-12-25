@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E7999B41-5010-4DDA-95AA-A9B124FFE669}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tanks_2D</RootNamespace>
+    <AssemblyName>Tanks_2D</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bullet.cs" />
+    <Compile Include="BulletPic.cs" />
+    <Compile Include="Controller_MainField.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller_MainField.Designer.cs">
+      <DependentUpon>Controller_MainField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DestroyedTank.cs" />
+    <Compile Include="DestroyedTankPic.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="EnemyPic.cs" />
+    <Compile Include="IBorderlessField.cs" />
+    <Compile Include="ICurrentPic.cs" />
+    <Compile Include="IMove.cs" />
+    <Compile Include="IPic.cs" />
+    <Compile Include="IRotate.cs" />
+    <Compile Include="IRotateBack.cs" />
+    <Compile Include="Model.cs" />
+    <Compile Include="PGStat.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="PlayerPic.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tank.cs" />
+    <Compile Include="TankPic.cs" />
+    <Compile Include="View.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View.Designer.cs">
+      <DependentUpon>View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Walls.cs" />
+    <Compile Include="WallsPic.cs" />
+    <EmbeddedResource Include="Controller_MainField.resx">
+      <DependentUpon>Controller_MainField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View.resx">
+      <DependentUpon>View.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WindowIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wall.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Animation\DOWN\Tank_D01I.bmp" />
+    <Content Include="Resources\Animation\DOWN\Tank_D01II.bmp" />
+    <Content Include="Resources\Animation\DOWN\Tank_D01III.bmp" />
+    <Content Include="Resources\Animation\DOWN\Tank_D01IV.bmp" />
+    <Content Include="Resources\Animation\DOWN\Tank_D01V.bmp" />
+    <Content Include="Resources\Animation\LEFT\Tank_L_10I.bmp" />
+    <Content Include="Resources\Animation\LEFT\Tank_L_10II.bmp" />
+    <Content Include="Resources\Animation\LEFT\Tank_L_10III.bmp" />
+    <Content Include="Resources\Animation\LEFT\Tank_L_10IV.bmp" />
+    <Content Include="Resources\Animation\LEFT\Tank_L_10V.bmp" />
+    <Content Include="Resources\Animation\RIGHT\Tank_R10I.bmp" />
+    <Content Include="Resources\Animation\RIGHT\Tank_R10II.bmp" />
+    <Content Include="Resources\Animation\RIGHT\Tank_R10III.bmp" />
+    <Content Include="Resources\Animation\RIGHT\Tank_R10IV.bmp" />
+    <Content Include="Resources\Animation\RIGHT\Tank_R10V.bmp" />
+    <Content Include="Resources\Animation\UP\Tank_U0_1I.bmp" />
+    <Content Include="Resources\Animation\UP\Tank_U0_1II.bmp" />
+    <Content Include="Resources\Animation\UP\Tank_U0_1III.bmp" />
+    <Content Include="Resources\Animation\UP\Tank_U0_1IV.bmp" />
+    <Content Include="Resources\Animation\UP\Tank_U0_1V.bmp" />
+    <None Include="Resources\Bullet_D01.bmp" />
+    <None Include="Resources\Bullet_L_10.bmp" />
+    <None Include="Resources\Bullet_R10.bmp" />
+    <None Include="Resources\Bullet_U0_1.bmp" />
+    <None Include="Resources\DstTank.bmp" />
+    <Content Include="Resources\EnemyAnimation\DOWN\ETank_D01I.bmp" />
+    <Content Include="Resources\EnemyAnimation\DOWN\ETank_D01II.bmp" />
+    <Content Include="Resources\EnemyAnimation\DOWN\ETank_D01III.bmp" />
+    <Content Include="Resources\EnemyAnimation\DOWN\ETank_D01IV.bmp" />
+    <Content Include="Resources\EnemyAnimation\DOWN\ETank_D01V.bmp" />
+    <Content Include="Resources\EnemyAnimation\LEFT\ETank_L_10I.bmp" />
+    <Content Include="Resources\EnemyAnimation\LEFT\ETank_L_10II.bmp" />
+    <Content Include="Resources\EnemyAnimation\LEFT\ETank_L_10III.bmp" />
+    <Content Include="Resources\EnemyAnimation\LEFT\ETank_L_10IV.bmp" />
+    <Content Include="Resources\EnemyAnimation\LEFT\ETank_L_10V.bmp" />
+    <Content Include="Resources\EnemyAnimation\RIGHT\ETank_R10I.bmp" />
+    <Content Include="Resources\EnemyAnimation\RIGHT\ETank_R10II.bmp" />
+    <Content Include="Resources\EnemyAnimation\RIGHT\ETank_R10III.bmp" />
+    <Content Include="Resources\EnemyAnimation\RIGHT\ETank_R10IV.bmp" />
+    <Content Include="Resources\EnemyAnimation\RIGHT\ETank_R10V.bmp" />
+    <Content Include="Resources\EnemyAnimation\UP\ETank_U0_1I.bmp" />
+    <Content Include="Resources\EnemyAnimation\UP\ETank_U0_1II.bmp" />
+    <Content Include="Resources\EnemyAnimation\UP\ETank_U0_1III.bmp" />
+    <Content Include="Resources\EnemyAnimation\UP\ETank_U0_1IV.bmp" />
+    <Content Include="Resources\EnemyAnimation\UP\ETank_U0_1V.bmp" />
+    <Content Include="Resources\PlayerAnimation\DOWN\PTank_D01I.bmp" />
+    <Content Include="Resources\PlayerAnimation\DOWN\PTank_D01II.bmp" />
+    <Content Include="Resources\PlayerAnimation\DOWN\PTank_D01III.bmp" />
+    <Content Include="Resources\PlayerAnimation\DOWN\PTank_D01IV.bmp" />
+    <Content Include="Resources\PlayerAnimation\DOWN\PTank_D01V.bmp" />
+    <Content Include="Resources\PlayerAnimation\LEFT\PTank_L_10I.bmp" />
+    <Content Include="Resources\PlayerAnimation\LEFT\PTank_L_10II.bmp" />
+    <Content Include="Resources\PlayerAnimation\LEFT\PTank_L_10III.bmp" />
+    <Content Include="Resources\PlayerAnimation\LEFT\PTank_L_10IV.bmp" />
+    <Content Include="Resources\PlayerAnimation\LEFT\PTank_L_10V.bmp" />
+    <Content Include="Resources\PlayerAnimation\RIGHT\PTank_R10I.bmp" />
+    <Content Include="Resources\PlayerAnimation\RIGHT\PTank_R10II.bmp" />
+    <Content Include="Resources\PlayerAnimation\RIGHT\PTank_R10III.bmp" />
+    <Content Include="Resources\PlayerAnimation\RIGHT\PTank_R10IV.bmp" />
+    <Content Include="Resources\PlayerAnimation\RIGHT\PTank_R10V.bmp" />
+    <Content Include="Resources\PlayerAnimation\UP\PTank_U0_1I.bmp" />
+    <Content Include="Resources\PlayerAnimation\UP\PTank_U0_1II.bmp" />
+    <Content Include="Resources\PlayerAnimation\UP\PTank_U0_1III.bmp" />
+    <Content Include="Resources\PlayerAnimation\UP\PTank_U0_1IV.bmp" />
+    <Content Include="Resources\PlayerAnimation\UP\PTank_U0_1V.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

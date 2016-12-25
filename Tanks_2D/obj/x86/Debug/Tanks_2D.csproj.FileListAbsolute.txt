@@ -1,0 +1,9 @@
+D:\MVSProject\Tanks_2D\Tanks_2D\bin\Debug\Tanks_2D.exe
+D:\MVSProject\Tanks_2D\Tanks_2D\bin\Debug\Tanks_2D.pdb
+D:\MVSProject\Tanks_2D\Tanks_2D\obj\x86\Debug\Tanks_2D.Properties.Resources.resources
+D:\MVSProject\Tanks_2D\Tanks_2D\obj\x86\Debug\Tanks_2D.csproj.GenerateResource.Cache
+D:\MVSProject\Tanks_2D\Tanks_2D\obj\x86\Debug\Tanks_2D.exe
+D:\MVSProject\Tanks_2D\Tanks_2D\obj\x86\Debug\Tanks_2D.pdb
+D:\MVSProject\Tanks_2D\Tanks_2D\obj\x86\Debug\Tanks_2D.View.resources
+D:\MVSProject\Tanks_2D\Tanks_2D\obj\x86\Debug\Tanks_2D.Controller_MainField.resources
+D:\MVSProject\Tanks_2D\Tanks_2D\obj\x86\Debug\Tanks_2D.csprojResolveAssemblyReference.cache
